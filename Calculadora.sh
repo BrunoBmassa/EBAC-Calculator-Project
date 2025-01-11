@@ -1,4 +1,4 @@
 #!/bin/bash
 
-#Executa o script calculadora.py
-python3 calculadora.py
+#Executa o script Calculadora.py
+python3 Calculadora.py
