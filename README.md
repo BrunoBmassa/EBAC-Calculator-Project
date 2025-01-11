@@ -2,21 +2,15 @@ Projeto Calculadora EBAC
 
 Este repositório contém uma calculadora simples desenvolvida em Python, que pode ser executada através do Shell Script no Linux.
 
-- Como executar o arquivo .sh?
-
-Clone o repositório para sua máquina local:
-
-git clone https://github.com/seuusuario/calculadora-projeto.git
-
--Como navegar até o diretório do arquivo no shell:
+-Navegar até o diretório do arquivo no shell:
 
 cd calculadora-projeto
 
-- Como tornar o script calculadora.sh executável:
+-Tornar o script calculadora.sh executável:
 
 chmod +x Calculadora.sh
 
-Como executar o script Shell para rodar a calculadora Python?
+-Executar o script Shell para rodar a calculadora Python?
 
 ./Calculadora.sh
 
