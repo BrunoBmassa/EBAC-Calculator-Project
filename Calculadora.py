@@ -1,19 +1,24 @@
-#Exercício Calculadora com condicional
+# Calculator Exercise with Conditional Statements
 
-num1 = float(input('Digite o primeiro valor'))
-num2 = float(input('Digite o segundo valor'))
-opr = input('Escolha qual operação deseja realizar : Soma, Subtração, Multiplicação ou Divisão').lower()
-resultado = 0
+num1 = float(input('Enter the first number: '))
+num2 = float(input('Enter the second number: '))
+opr = input('Choose the operation to perform: Addition, Subtraction, Multiplication or Division: ').lower()
+result = 0
 
-if opr == 'soma':
-  resultado = num1 + num2
-  print("A soma de", num1,"+", num2, "é", resultado)
-elif opr == 'subtração':
-  resultado = num1 - num2
-  print("A subtração de", num1,"-", num2, "é", resultado)
-elif opr == 'multiplicação':
-  resultado = num1 * num2
-  print("A multiplicação de", num1,"*", num2, "é", resultado)
+if opr == 'addition':
+    result = num1 + num2
+    print("The addition of", num1, "+", num2, "is", result)
+elif opr == 'subtraction':
+    result = num1 - num2
+    print("The subtraction of", num1, "-", num2, "is", result)
+elif opr == 'multiplication':
+    result = num1 * num2
+    print("The multiplication of", num1, "*", num2, "is", result)
+elif opr == 'division':
+    if num2 == 0:
+        print("Division by zero is not allowed.")
+    else:
+        result = num1 / num2
+        print("The division of", num1, "/", num2, "is", result)
 else:
-  resultado = num1 / num2
-  print("A divisão de", num1,"/", num2, "é", resultado)
+    print("Invalid operation. Please choose Addition, Subtraction, Multiplication, or Division.")
