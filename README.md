@@ -6,7 +6,7 @@ This repository contains a simple calculator developed in **Python**, which can 
 
 ## Project Structure
 
-EBAC-Calculator-Projet/
+EBAC-Calculator-Project/
 ├── Calculator.py # Main Python script
 └── Calculator.sh # Shell script to execute the calculator
 
