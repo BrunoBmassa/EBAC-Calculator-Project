@@ -7,8 +7,8 @@ This repository contains a simple calculator developed in **Python**, which can 
 ## Project Structure
 
 calculadora-projeto/
-├── Calculadora.py # Main Python script
-└── Calculadora.sh # Shell script to execute the calculator
+├── Calculator.py # Main Python script
+└── Calculator.sh # Shell script to execute the calculator
 
 ## How to Run
 
