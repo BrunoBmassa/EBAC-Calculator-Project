@@ -6,7 +6,7 @@ This repository contains a simple calculator developed in **Python**, which can 
 
 ## Project Structure
 
-calculadora-projeto/
+EBAC-Calculator-Projet/
 ├── Calculator.py # Main Python script
 └── Calculator.sh # Shell script to execute the calculator
 
@@ -14,19 +14,19 @@ calculadora-projeto/
 
 1. **Navigate to the project directory in the terminal:**
    
-   cd calculadora-projeto
+   cd EBAC-Calculator-Projet
 
 2. **Make the shell script executable:**
 
-chmod +x Calculadora.sh
+   chmod +x Calculator.sh
 
 3. **Run the shell script to launch the calculator:**
 
-./Calculadora.sh
+   ./Calculator.sh
 
 ## Code Description
 
-The Calculadora.py script allows the user to perform basic mathematical operations, including:
+The Calculator.py script allows the user to perform basic mathematical operations, including:
 
 ➕ Addition
 
@@ -50,5 +50,6 @@ Output: The result of the selected operation is displayed to the user.
 
 2. Linux terminal with permission to execute shell scripts
 
-
+Author
+Bruno Brehmer Massaneiro
 
