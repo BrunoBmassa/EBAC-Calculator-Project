@@ -50,6 +50,7 @@ Output: The result of the selected operation is displayed to the user.
 
 2. Linux terminal with permission to execute shell scripts
 
-Author
+## Author
+
 Bruno Brehmer Massaneiro
 
