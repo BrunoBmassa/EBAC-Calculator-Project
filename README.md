@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="calculator.png" alt="EBAC Calculator Project" width="400"/>
+</p>
+
 # EBAC Calculator Project
 
 This repository contains a simple calculator developed in **Python**, which can be executed via a **Shell Script on Linux**. It was created as part of the EBAC programming activities.
